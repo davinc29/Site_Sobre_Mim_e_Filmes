@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Montserrat';
+}
+
+#cabeçalho{
+    background-color: transparent;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    height: 90px;
+    background-color: black;
+    text-align: center;
+    z-index: 1;
+    padding-top: 5px;
+}
+
+#nav{
+    background-color: transparent;
+    height: 105px;
+    display: flex;
+}
+
+#logo-link{
+    width: 50%;
+}
+
+#tamanhoClique{
+    width: 240px;
+}
+
+#logo{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 5px;
+    width: 240px;
+    height: 72px;
+}
+
+#divLink{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+#Links{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.links{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+
+
+#linkCatalogo{
+    height: 30px;
+    background-image: linear-gradient(rgb(255, 0, 0),rgb(255, 0, 0));
+    background-repeat: no-repeat;
+    background-size: 60% 3px;
+    background-position: bottom;
+    transition: 700ms ease ;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#part1{
+    margin-top: -40px;
+    height: 580px;
+    background-color:  rgb(15, 15, 15);
+
+}
+
+#part2{
+    margin-top: 0px;
+    height: 580px;
+    background-color:  rgb(15, 15, 15);
+}
+
+#maisVistos{
+    padding-top: 50px;
+    margin-top: 30px;
+    margin-left: 25px;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 28px;
+
+
+    width: 190px;
+    background-image: linear-gradient(white,white);
+    background-repeat: no-repeat;
+    background-size: 0% 3px;
+    background-position: left bottom;
+    transition: 700ms ease ;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#maisVistos:hover{
+    background-size: 87% 3px;
+}
+
+
+
+#recomendados{
+    padding-top: 50px;
+    margin-left: 40px;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 28px;
+
+    width: 263px;
+    background-image: linear-gradient(white,white);
+    background-repeat: no-repeat;
+    background-size: 0% 3px;
+    background-position: left bottom;
+    transition: 700ms ease ;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#recomendados:hover{
+    background-size: 87% 3px;
+}
+
+table{
+    color: white;
+    margin: 0 auto;
+    width: 100%;
+}
+
+table td img{
+    width: 200px;
+    height: 300px;
+}
+
+table td img:hover{
+    box-shadow: 12px 12px 8px rgb(0, 0, 0);
+    margin-bottom: 17.5px;
+}
+
+table tr{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+table td{
+    text-align: center;
+}
+
+table .td{
+    transition: transform 0.3s;
+    z-index: 0;
+    text-align: center;
+}
+
+table .td:hover{
+    transform: scale(1.1);
+}
+
+table .td:hover > :not(:hover){
+    opacity: 0.5;
+}
+h2{
+    margin: 0;
+}
+
+
+#imdb{
+    width: 50px;
+    height: 22px;
+    border-radius: 6px 6px;
+    background-color: rgb(200, 200, 0);
+    border: 3px solid black;
+    box-shadow: 3px 4px 6px;
+}
+
+#divIMDb{
+    margin-top: 20px;
+}
+
+#imdb a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#rodape{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(16, 16, 16);
+    color: white;
+    text-align: center;
+    bottom: 0;
+}
+
+

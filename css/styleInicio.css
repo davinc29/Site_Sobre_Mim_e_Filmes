@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+  
+:target {
+    scroll-margin-top: 0.10em;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    background-color: rgb(32, 32, 32);
+    font-family: 'Montserrat';
+}
+
+#cabeçalho{
+    background-color: transparent;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    height: 70px;
+    text-align: center;
+    z-index: 1;
+    padding-top: 5px;
+}
+
+#nav{
+    background-color: transparent;
+    height: 105px;
+    display: flex;
+}
+
+#logo-link{
+    width: 50%;
+    display: flex;
+}
+
+#logo{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 5px;
+    width: 240px;
+    height: 72px;
+}
+
+#divLink{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+#Links{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.links{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+
+#linkIndex{
+    height: 30px;
+    background-image: linear-gradient(rgb(255, 0, 0),rgb(255, 0, 0));
+    background-repeat: no-repeat;
+    background-size: 50% 3px;
+    background-position: bottom;
+    transition: 700ms ease ;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#filmes{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#conteudo{
+    text-align: center;
+}
+
+#h1-catalogo{
+    color: white;
+}
+
+#irParaCatalogo{
+    width: 200px;
+    height: 35px;
+    z-index: 1;
+    border-radius: 15px 15px;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    border: solid rgb(146, 0, 0) 2px;
+}
+
+#irParaCatalogo:hover{
+    background-color: rgb(215, 0, 0);
+    transition: 0.2s;
+    transform: scale(1.05);
+}
+
+#irParaCatalogo a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+}

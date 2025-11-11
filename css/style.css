@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+    top: 0;
+
+    scroll-behavior: smooth;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+main{
+    padding-top: 100px;
+    background: linear-gradient(175deg, #09000e 0%, #1e002a 20%, #260034 40%, #2f0841 60%, #1b0728 80%, #14161b 90%, #18111c 100%);
+
+}
+
+/* ==============================> Inicio <=============================== */
+
+
+#inicio{
+    height: 100vh;
+    margin-bottom: -31px;
+    background-color: transparent;
+}
+
+.minhaImagem{
+    height: 420px;
+    width: 420px;
+    position:absolute;
+    top: 42%;
+    left:72.68%;
+}
+
+#fundo{
+    top: 61.5%;
+    left: 62.2%;   
+    height: 280px;
+    width: 580px;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;          
+    align-items: center;  
+}
+
+#ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;    
+    padding: 0;
+}
+
+#header{
+    position: fixed;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background-color: #A95DCC;
+
+    width: min(800px, 95%);
+    height: 50px;
+
+    border-radius: 60px;
+    margin: 0;
+
+    z-index: 9999;
+}
+
+.lis{
+    text-decoration: none;
+    color: black;
+}
+
+.headerLi{
+    list-style-type: none;
+}
+
+.headerLi:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    text-shadow: #3b1a4a 0.2px 0.2px 0.5px;
+}
+
+#textoMain{
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+    margin-left: 50px ;
+    margin-top: -70px;
+
+}
+
+#frase{
+    font-size: 50px;
+    color: #CCB2D7;
+
+    margin: 0;
+    margin-bottom: -10px;
+    padding: 0;
+}
+
+#nome{
+    font-size: 110px;
+
+    font-family: "Lily Script One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+    color: #622d7a;
+
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+#cargo{
+    width: 235px;
+    font-size: 20px;
+
+    color: #A350CA;
+
+    margin: 0;
+    padding: 0;
+
+    margin-bottom: 5px;
+
+}
+
+#hr_cargo{
+    width: 235px;
+
+    height: 1px;
+    border: 0;
+    background: linear-gradient(to right, #572B6C, #D9D9D9);
+    
+    margin: 0;
+    padding: 0;
+
+    margin-bottom: 12px;
+}
+
+#texto{
+    width: 300px;
+
+    color: #9481B6;
+
+    margin: 0;
+    padding: 0;
+
+    margin-bottom: 60px;
+}
+
+#sobreMim{
+    height: 40px;
+    width: 200px;
+
+    border: 0;
+    border-radius: 80px;
+
+    background-color: #A95DCC;
+    color: #230C2E;
+    font-size: 17px;
+}
+
+#sobreMim:hover{
+    background-color: #9841c1;
+    transform: scale(1.01);
+    transition: all 0.09s ease-in-out;
+    box-shadow: #3b1a4a 2px 2px 10px;
+    text-shadow: #3b1a4a 0.2px 0.2px 0.5px;
+}
+
+/* ==============================> Ja Conheci <=============================== */
+
+#jaConheci{
+    margin-top: -70px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: transparent;
+}
+
+#jaConheci h2 {
+    font-family: 'Lily Script One', system-ui;
+    color: #CCB2D7;
+    font-size: 70px;
+    margin-top: 0;
+    margin-top: 100px;
+    height: 2vh;
+    margin-bottom: 70px;
+}
+
+#conteudoJaConheci{
+    height: 70vh;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#caixaTexto, #caixaImagens{
+    width: 50%;
+}
+
+#caixaImagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+}
+
+#caixaTexto{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#caixaTexto div{
+    width: 100%;
+}
+
+#texto_caixaTexto{
+    
+}
+
+.imagens{
+    height: 300px;
+    width: 190px;
+    border-radius: 20px;
+    box-shadow: #3b1a4a 2px 2px 10px;
+}
+
+.imagens:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    box-shadow: #3b1a4a 4px 4px 20px;
+}
+
+#imagem2{
+    margin: 0 20px;
+    margin-bottom: 50px;
+}
+
+
+#caixaTexto h3{
+    font-family: 'Lily Script One', system-ui;
+    color: #A350CA;
+    font-size: 70px;
+    margin-bottom: 50px;
+    padding-left: 150px;
+
+}
+
+#clink_tituloCaixaTexto:active{
+    color: #CCB2D7;    
+}
+
+#caixaTexto ul{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #CCB2D7;
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+#caixaTexto ul li{
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+    font-family: 'Lily Script One', system-ui;
+    color: #CCB2D7;
+    font-size: 25px;
+}
+
+
+#caixaTexto ul li:hover{
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transform: scale(1.15);
+    transition: all 0.3s ease-in-out;
+    text-shadow: #3b1a4a 0.2px 0.2px 0.5px;
+}
+
+#botaoPassarCarrocel{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#botaoPassarCarrocel i{
+    font-size: 50px;
+    color: #CCB2D7;
+    z-index: 9998;
+    padding-right: 20px;
+    
+    right: 0;
+}
+
+.a_caixaTexto{
+    color: #CCB2D7;
+}
+
+.a_caixaTexto:active{
+    color: #620c93;
+}
+
+
+/* ==============================> Quero Conhecer <=============================== */
+
+#queroConhecer{
+    margin-top: -70px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: transparent;
+}
+
+#queroConhecer h2 {
+    font-family: 'Lily Script One', system-ui;
+    color: #CCB2D7;
+    font-size: 70px;
+    margin-top: 0;
+    margin-top: 100px;
+    height: 2vh;
+    margin-bottom: 70px;
+}
+
+#conteudoQueroConhecer{
+    height: 70vh;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#caixaTexto_2, #caixaImagens_2{
+    width: 50%;
+}
+
+#caixaImagens_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caixaTexto_2{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#caixaTexto_2 div{
+    width: 100%;
+}
+
+#imagem2_2{
+    margin: 0 20px;
+    margin-bottom: 50px;
+}
+
+
+#caixaTexto_2 h3{
+    font-family: 'Lily Script One', system-ui;
+    color: #A350CA;
+    font-size: 70px;
+    margin-bottom: 50px;
+    padding-left: 150px;
+
+}
+
+#clink_tituloCaixaTexto_2:active{
+    color: #CCB2D7;    
+}
+
+#caixaTexto_2 ol{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #CCB2D7;
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+#caixaTexto_2 ol li{
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+    font-family: 'Lily Script One', system-ui;
+    color: #CCB2D7;
+    font-size: 25px;
+}
+
+
+#caixaTexto_2 ol li:hover{
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transform: scale(1.15);
+    transition: all 0.3s ease-in-out;
+    text-shadow: #3b1a4a 0.2px 0.2px 0.5px;
+}
+
+#botaoPassarCarrocel{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#botaoPassarCarrocel i{
+    font-size: 50px;
+    color: #CCB2D7;
+    z-index: 9998;
+    padding-right: 20px;
+    
+    right: 0;
+}
+
+.a_caixaTexto{
+    color: #CCB2D7;
+}
+
+.a_caixaTexto:active{
+    color: #620c93;
+}
+
+.botao_passar{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#link_tituloCaixaTexto_2{
+    color: #620c93;    
+}
+
+#icon_passar, #icon_voltar{
+    font-size: 50px;
+    color: #CCB2D7;
+    z-index: 9998;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    right: 0;
+}
+
+#icon_voltar{
+    margin-right: 50px;
+}
+
+/* ==============================> Curiosidades <=============================== */
+
+#curiosidades{
+    margin-top: -70px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: transparent;
+}
+
+
+#curiosidades h2 {
+    
+    font-family: 'Lily Script One', system-ui;
+    color: #CCB2D7;
+    font-size: 70px;
+    margin-top: 0;
+    margin-top: 100px;
+    height: 2vh;
+    margin-bottom: 70px;
+}
+
+#conteudoCuriosidades{
+    height: 70vh;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#conteiner{
+    width: 100%;
+    margin-top: -250px;
+}
+
+#ol_curiosidades{
+
+    margin-top: 300px;
+
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #CCB2D7;
+    font-size: 20px;
+    padding-left: 100px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lisCuriosidades{
+    margin: 10px;
+}
+
+.lisCuriosidades:hover{
+    color: #A350CA;
+    text-shadow: #713e88 4px 4px 10px;
+}
+
+#conteiner_imagens{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.imagem_curiosidades{
+
+    margin-top: 80px;
+    margin-left: -50px;
+
+    width: 250px;
+    height: 150px;
+
+    border: 2px solid #A95DCC;
+    border-radius: 20px;
+}
+
+.imagem_curiosidades:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    box-shadow: #3b1a4a 4px 4px 20;
+}
+
+
+/* ==============================> Footer <=============================== */
+
+footer{
+    position: static;
+    margin: 0 auto;
+    bottom: 0;
+    text-align: center;
+
+    height: 40px;
+    width: 100%;
+    background-color: #18121C;
+
+    color: #CCB2D7;
+
+    padding-top: 70px;
+    margin-bottom: 20px;
+    
+    
+}
